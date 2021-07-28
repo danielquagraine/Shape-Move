@@ -1,0 +1,117 @@
+
+*{
+margin:0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.circle{
+  position: absolute;
+  left:50%;
+  top:25%;
+  height:100px;
+  width:100px;
+  border: 5px solid black;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: 150% 150%;
+}
+
+
+.circle1{
+  position: absolute;
+  left:50%;
+  top:50%;
+  height:100px;
+  width:100px;
+  border: 5px solid black;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: 150% 150%;
+  background: yellow;
+  transform: scale(1.5);
+  transition: transform 250ms ease-in-out;
+  box-shadow: 5px 10px #888888;
+  cursor: none;
+}
+
+.circle1:active{
+  transform: scale(1.2);
+  transition: transform 50ms ease-in-out;
+  box-shadow: 1px 1px #888888;
+  transform-origin: 120% 120%;
+}
+
+
+.square{
+  position: absolute;
+  left:25%;
+  top:50%;
+  height:100px;
+  width:100px;
+  border: 5px solid black;
+  transform: translate(-50%, -50%);
+  transform-origin: 150% 150%;
+}
+
+.square1{
+  position: absolute;
+  left:25%;
+  top:50%;
+  height:100px;
+  width:100px;
+  border: 5px solid black;
+  background: cyan;
+  transform: translate(-50%, -50%);
+  transform-origin: 150% 150%;
+  transform: scale(1.5);
+  transition: transform 250ms ease-in-out;
+  box-shadow: 5px 10px #888888;
+  cursor: none;
+}
+
+.square1:active{
+  transform: scale(1.2);
+  transition: transform 50ms ease-in-out;
+  box-shadow: 1px 1px #888888;
+  transform-origin: 120% 120%;
+}
+
+.rectangle{
+  position: absolute;
+  left:75%;
+  top:75%;
+  height:60px;
+  width:200px;
+  border: 5px solid black;
+  transform: translate(-50%, -50%);
+  transform-origin: 150% 150%;
+}
+
+.rectangle1{
+  position: absolute;
+  left:75%;
+  top:75%;
+  height:60px;
+  width:200px;
+  border: 5px solid black;
+  background: orange;
+  transform: translate(-50%, -50%);
+  transform-origin: 150% 150%;
+  transform: scale(1.5);
+  transition: transform 250ms ease-in-out;
+  box-shadow: 5px 10px #888888;
+  cursor: none;
+}
+
+.rectangle1:active{
+  transform: scale(1.2);
+  transition: transform 50ms ease-in-out;
+  box-shadow: 1px 1px #888888;
+  transform-origin: 120% 120%;
+}
